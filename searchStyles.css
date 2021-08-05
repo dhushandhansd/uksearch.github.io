@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    /* background-image: url('https://source.unsplash.com/random/?city,night'); */
+    background-image: url('https://picsum.photos/1440/822');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    flex: 1;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.search-btn {
+    width: 13%;
+    height: 40px;
+    font-size: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: #5865F2;
+    color: white;
+}
+
+.search-btn:focus {
+    outline: none;
+}
+
+.logo-container {
+    font-size: 350%;
+    color: white;
+}
+
+.search-bar {
+    width:60%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.bookmarks-container {
+    color: white;
+    flex: 1;
+    margin-top: 17%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hot-topics-title {
+    margin-bottom: 10px;
+}
+
+.bookmarks {
+    margin-top: 10px;
+}
+
+.bookmarks-title {
+    margin-bottom: 10px;
+}
+
+.hot-topic{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    margin-right: 15px;
+    flex-wrap: column wrap;
+    border: none;
+    border-radius: 30px;
+}
+
+.hot-topic:hover {
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+.img-size {
+    width: 10%;
+    height: auto;
+}
