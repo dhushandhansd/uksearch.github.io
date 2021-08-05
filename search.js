@@ -11,7 +11,7 @@ searchButton.addEventListener('click', () => {
         rawQuery.replace(/\s/g, '+')
         let postQuery = 'www.google.com/?q=' + rawQuery
         sessionStorage.setItem('searchquery',postQuery)
-        window.location.href = 'https://127.0.0.1:5500/search.html'
+        window.location.href = 'results.html'
     }
 })
 
@@ -33,35 +33,35 @@ let ces = document.getElementById('ces-btn')
 
 apple.addEventListener('click', () => {
     sessionStorage.setItem('searchquery','www.apple.com')
-    window.location.href ='https://127.0.0.1:5500/search.html'
+    window.location.href = 'results.html'
 })
 
 google.addEventListener('click', () => {
     sessionStorage.setItem('searchquery','www.google.com')
-    window.location.href ='https://127.0.0.1:5500/search.html'
+    window.location.href = 'results.html'
 })
 
 facebook.addEventListener('click', () => {
     sessionStorage.setItem('searchquery','www.facebook.com')
-    window.location.href ='https://127.0.0.1:5500/search.html'
+    window.location.href = 'results.html'
 })
 
 youtube.addEventListener('click', () => {
     sessionStorage.setItem('searchquery','www.youtube.com')
-    window.location.href ='https://127.0.0.1:5500/search.html'
+    window.location.href = 'results.html'
 })
 
 discord.addEventListener('click', () => {
     sessionStorage.setItem('searchquery','www.discord.com')
-    window.location.href ='https://127.0.0.1:5500/search.html'
+    window.location.href = 'results.html'
 })
 
 dell.addEventListener('click', () => {
     sessionStorage.setItem('searchquery','www.dell.com')
-    window.location.href ='https://127.0.0.1:5500/search.html'
+    window.location.href = 'results.html'
 })
 
 ces.addEventListener('click', () => {
     sessionStorage.setItem('searchquery','www.cesit.com')
-    window.location.href ='https://127.0.0.1:5500/search.html'
+    window.location.href = 'results.html'
 })
